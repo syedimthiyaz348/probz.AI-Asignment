@@ -33,7 +33,7 @@ const Chart = () => {
   return (
     <div className="main-container">
       <h1>My Chart</h1>
-      <Plot id = "mydiv" className="chart-container"
+      <Plot className="chart-container"
         data={[
           {
             x: Xaxis,
@@ -44,7 +44,7 @@ const Chart = () => {
             
           }
         ]}
-        layout={ {width: 590, height: 500, title: 'Sample chart of Stocks', showlegend: true} }
+        layout={ {title: 'Sample chart of Stocks', showlegend: true} }
       />
     </div>
   );
