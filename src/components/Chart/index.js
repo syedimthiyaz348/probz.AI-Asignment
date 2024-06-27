@@ -30,7 +30,7 @@ const Chart = () => {
   },[])
 
   return (
-    <div>
+    <div className="main-container">
       <h1>My Chart</h1>
       <Plot id = "mydiv" className="chart-container"
         data={[
