@@ -43,7 +43,7 @@ const Chart = () => {
             
           }
         ]}
-        layout={ {width: 700, height: 500, title: 'Sample chart of Stocks', showlegend: true} }
+        layout={ {width: 580, height: 500, title: 'Sample chart of Stocks', showlegend: true} }
       />
     </div>
   );
