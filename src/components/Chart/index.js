@@ -8,6 +8,7 @@ const Chart = () => {
 
 
   useEffect(() => {
+    document.title = "My Chart"
     const callingApi = async () => {
       //const apiKey = 'WAVMYKOIKBF6B1UU'
       //const company = 'AMZN'
@@ -43,7 +44,7 @@ const Chart = () => {
             
           }
         ]}
-        layout={ {width: 580, height: 500, title: 'Sample chart of Stocks', showlegend: true} }
+        layout={ {width: 590, height: 500, title: 'Sample chart of Stocks', showlegend: true} }
       />
     </div>
   );
