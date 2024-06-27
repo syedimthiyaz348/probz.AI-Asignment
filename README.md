@@ -1,5 +1,17 @@
 # Getting Started with Create React App
 
+used PLOTLY to create chart 
+this is the stock chart 
+
+## Features
+ZOOM IN, ZOOM OUT, PAN, SAVE THE SCREENSHOT, SELECTED ZOOM, RETURN TO ACTUAL ZOOM
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
