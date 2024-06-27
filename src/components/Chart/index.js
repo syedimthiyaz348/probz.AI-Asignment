@@ -44,7 +44,13 @@ const Chart = () => {
             
           }
         ]}
-        layout={ {title: 'Sample chart of Stocks', showlegend: true} }
+        layout={ {title: 'Line chart of Stocks', showlegend: true} }
+      />
+      <Plot className="chart-container"
+        data={[
+          {type: 'bar', x: Xaxis, y: Yaxis},
+        ]}
+        layout={ { title: 'Bar chart of Stocks', showlegend: true} }
       />
     </div>
   );

@@ -6,3 +6,9 @@
     display: flex;
     flex-shrink: 0;
 }
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
